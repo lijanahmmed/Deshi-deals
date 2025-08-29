@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <!-- Header section Start -->
+  <!-- Header section -->
   <header class="shadow py-3">
     <div class="logo flex justify-center items-center gap-1">
       <img src="./assets/logo.png" alt="" class="w-12" />
@@ -27,7 +27,6 @@
   <main class="bg-gray-100">
 
     <section id="porducts-container" class="w-11/12 mx-auto py-10 grid grid-cols-12 gap-8">
-      
       <!-- Kitchenware section -->
       <section id="product-box" class="col-span-9">
         <div class="kitchen">
@@ -90,11 +89,36 @@
         </div>
       </section>
 
-      
+      <!-- Cart container section -->
+      <aside id="cart-box" class="col-span-3">
+        <div class="bg-white p-5 rounded">
+          <h2 class="font-bold mb-5">Have a Cupon</h2>
+          <div class="join">
+            <input class="input join-item" placeholder="Email" />
+            <button class="btn join-item rounded-r-xl bg-pink-500 text-white">
+              Apply
+            </button>
+          </div>
+        </div>
+        <div class="cart-box bg-white mt-10 p-5">
+          <div class="flex justify-between items-center">
+            <h2 class="font-bold">Cart</h2>
+            <button class="btn" id="btn-clear">Clear</button>
+          </div>
+          <div class="space-y-5" id="cart-container"></div>
+          <div class="">
+            <h2>Total Price: <span id="total-price">0</span> TK</h2>
+            <h2>Total Quantity: <span id="total-quantity">0</span> Items</h2>
+            <button class="btn bg-pink-500 text-white btn-block">
+              Make Purchase
+            </button>
+          </div>
+        </div>
+      </aside>
     </section>
   </main>
 
-  <script src="./script/index.js"></script>
+  
 </body>
 
 </html>
