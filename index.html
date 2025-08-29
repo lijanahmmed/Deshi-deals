@@ -24,7 +24,77 @@
     </div>
   </header>
 
-  
+  <main class="bg-gray-100">
+
+    <section id="porducts-container" class="w-11/12 mx-auto py-10 grid grid-cols-12 gap-8">
+      
+      <!-- Kitchenware section -->
+      <section id="product-box" class="col-span-9">
+        <div class="kitchen">
+          <h1 class="text-2xl font-bold mb-5">Kitchenware</h1>
+
+          <div class="kitchen-items grid grid-cols-3 gap-5">
+            <!-- product card 1  -->
+            <div id="card-1" class="card bg-base-100 shadow-sm">
+              <figure class="bg-gray-200 m-5 rounded-xl">
+                <img src="./assets/kitchen-1.png" alt="Shoes" class="rounded-xl py-5" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 id="card-title-1" class="card-title">
+                  রান্না করার স্টিক
+                </h2>
+                <p>⭐⭐⭐⭐</p>
+                <p class="text-gray-500">
+                  <span id="card-price-1">150.40</span> TK
+                </p>
+              </div>
+              <div class="m-5">
+                <button id="cart-btn-1" class="btn bg-pink-500 text-white btn-block cart-btn">
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+            <!-- product card 2  -->
+            <div class="card bg-base-100 shadow-sm">
+              <figure class="bg-gray-200 m-5">
+                <img src="./assets/kitchen-2.png" alt="Shoes" class="rounded-xl py-5" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title">থালা বাটি</h2>
+                <p>⭐⭐⭐⭐</p>
+                <p class="text-gray-500"><span>250.00</span> TK</p>
+              </div>
+              <div class="m-5">
+                <button class="btn bg-pink-500 text-white btn-block cart-btn">
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+            <!-- product card 3  -->
+            <div class="card bg-base-100 shadow-sm">
+              <figure class="bg-gray-200 m-5">
+                <img src="./assets/kitchen-3.png" alt="Shoes" class="rounded-xl py-5" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title">স্টিলের হাড়ি</h2>
+                <p>⭐⭐⭐⭐</p>
+                <p class="text-gray-500"><span>750.00</span> TK</p>
+              </div>
+              <div class="m-5">
+                <button class="btn bg-pink-500 text-white btn-block cart-btn">
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+    </section>
+  </main>
+
+  <script src="./script/index.js"></script>
 </body>
 
 </html>
