@@ -4,7 +4,7 @@ function getElement(id) {
   return element;
 }
 
-//delegation
+// delegation
 
 getElement("product-box").addEventListener("click", function (e) {
   if (e.target.className.includes("cart-btn")) {
@@ -93,3 +93,11 @@ getElement("product-box").addEventListener("click", function (e) {
 // }
 
 
+// Clear Button functionalities
+
+document.getElementById("btn-clear").addEventListener("click", function () {
+  const cartContainer = getElement("cart-container");
+  cartContainer.innerHTML = "";
+  getElement("total-quantity").innerText = 0;
+  getElement("total-price").innerText = 0;
+});
