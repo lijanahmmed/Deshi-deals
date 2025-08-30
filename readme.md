@@ -1,6 +1,6 @@
-# Desi Deals  
+# Deshi Deals  
 
-**Desi Deals** is a simple and responsive e-commerce webpage where users can explore and buy **kitchenware products**.  
+**Deshi Deals** is a simple and responsive e-commerce webpage where users can explore and buy **kitchenware products**.  
 It is built using **HTML**, **Tailwind CSS**, **DaisyUI**, and **JavaScript DOM** for interactivity.  
 
 ---
